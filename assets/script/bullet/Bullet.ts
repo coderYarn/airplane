@@ -1,11 +1,14 @@
-import { _decorator, Component, Node } from "cc";
+
+import { _decorator, Component, Node, Collider, ITriggerEvent } from 'cc';
+import { Constant } from '../framework/Constant';
+import { PoolManager } from '../framework/PoolManager';
 const { ccclass, property } = _decorator;
 
 /**
  * Predefined variables
  * Name = Bullet
- * DateTime = Mon Mar 13 2023 11:34:11 GMT+0800 (中国标准时间)
- * Author = coderYarn
+ * DateTime = Mon Mar 15 2023 11:00:15 GMT+0800 (China Standard Time)
+ * Author = mywayday
  * FileBasename = Bullet.ts
  * FileBasenameNoExtension = Bullet
  * URL = db://assets/script/bullet/Bullet.ts
@@ -13,37 +16,62 @@ const { ccclass, property } = _decorator;
  *
  */
 
-@ccclass("Bullet")
+@ccclass('Bullet')
 export class Bullet extends Component {
-  public bulletSpeed = 0;
+    private _bulletSpeed = 0;
+    private _direction = Constant.Direction.MIDDLE;
+    private _isEnemyBullet = false;
 
-  private _isEnemyBullet = false;
-  start() {
-    // [3]
-  }
-  update(deltaTime: number) {
-    const pos = this.node.position;
-    let moveLength = 0;
-    if (this._isEnemyBullet) {
-      moveLength = pos.z + this.bulletSpeed;
-      this.node.setPosition(pos.x, pos.y, moveLength);
-
-      if (moveLength > 50) {
-        this.node.destroy();
-      }
-    } else {
-      moveLength = pos.z - this.bulletSpeed;
-      this.node.setPosition(pos.x, pos.y, moveLength);
-
-      if (moveLength < -50) {
-        this.node.destroy();
-      }
+    onEnable () {
+        const collider = this.getComponent(Collider);
+        collider.on('onTriggerEnter', this._onTriggerEnter, this);
     }
-  }
-  show(speed: number, isEnemyBullet: boolean) {
-    this._isEnemyBullet = isEnemyBullet;
-    this.bulletSpeed = speed;
-  }
+
+    onDisable () {
+        const collider = this.getComponent(Collider);
+        collider.off('onTriggerEnter', this._onTriggerEnter, this);
+    }
+
+    update (deltaTime: number) {
+        const pos = this.node.position;
+        let moveLength = 0;
+        if (this._isEnemyBullet) {
+            moveLength = pos.z + this._bulletSpeed;
+            this.node.setPosition(pos.x, pos.y, moveLength);
+            if (moveLength > 50) {
+                // this.node.destroy();
+                PoolManager.instance().putNode(this.node);
+                // console.log('bullet destroy');
+            }
+        } else {
+            moveLength = pos.z - this._bulletSpeed;
+            if(this._direction === Constant.Direction.LEFT){
+                this.node.setPosition(pos.x - this._bulletSpeed * 0.2, pos.y, moveLength);
+            } else if(this._direction === Constant.Direction.RIGHT){
+                this.node.setPosition(pos.x + this._bulletSpeed * 0.2, pos.y, moveLength);
+            } else{
+                this.node.setPosition(pos.x, pos.y, moveLength);
+            }
+
+            if (moveLength < -50) {
+                // this.node.destroy();
+                PoolManager.instance().putNode(this.node);
+                // console.log('bullet destroy');
+            }
+        }
+    }
+
+    show(speed: number, isEnemyBullet: boolean, direction = Constant.Direction.MIDDLE){
+        this._bulletSpeed = speed;
+        this._isEnemyBullet = isEnemyBullet;
+        this._direction = direction;
+    }
+
+    private _onTriggerEnter(event: ITriggerEvent){
+        // console.log('trigger  bullet destroy');
+        // this.node.destroy();
+        PoolManager.instance().putNode(this.node);
+    }
 }
 
 /**

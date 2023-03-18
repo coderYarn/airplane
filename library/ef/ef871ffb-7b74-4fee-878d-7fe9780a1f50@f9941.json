@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fightBoxScore",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 224,
+      "height": 66
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 224,
+      "height": 66
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ef871ffb-7b74-4fee-878d-7fe9780a1f50@6c48a",
+    "packable": true
+  }
+}

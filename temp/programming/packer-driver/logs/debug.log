@@ -1,0 +1,206 @@
+debug: Sat, 18 Mar 2023 13:32:37 GMT
+debug: Project: C:\Users\coderYarn\Desktop\airplane
+debug: Targets: editor,preview
+debug: Incremental file seems great.
+debug: Engine path: D:\CocosDashboard_1.2.5\resources\.editors\Creator\3.3.2\resources\resources\3d\engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Loading cache costs 2.601700007915497ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Loading cache costs 2.4613000005483627ms.
+debug: Sync engine features: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,physics-builtin,intersection-2d,primitive,profiler,particle-2d,audio,video,webview,tween
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 18.098999992012978ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 11
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:06:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/MovingSceneBg.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/MovingSceneBg.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts.
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/MovingSceneBg.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts as cce:/internal/x/cc.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat Mar 18 2023 21:24:28 GMT+0800 (中国标准时间), Current mtime: Sat Mar 18 2023 21:32:33 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/MovingSceneBg.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/MovingSceneBg.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts as cce:/internal/x/cc.
+debug: Resolve ./framework/PoolManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve ../framework/PoolManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve ../framework/Constant from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve ../bullet/BulletProp from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts.
+debug: Resolve ../bullet/Bullet from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts.
+debug: Resolve ../plane/EnemyPlane from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts.
+debug: Resolve ../plane/SelfPlane from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts.
+debug: Resolve ./Constant from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve ./AudioManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts.
+debug: Resolve ./PoolManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve ../framework/Constant from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve ../framework/PoolManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve ../framework/Constant from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve ../framework/PoolManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve ../framework/GameManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts.
+debug: Resolve ../framework/Constant from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Target(editor) ends with cost 823.2854999899864ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/physics-builtin from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-builtin.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:06:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/MovingSceneBg.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/MovingSceneBg.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts.
+debug: Resolve file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts.
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/MovingSceneBg.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts
+debug: Inspect file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts as cce:/internal/x/cc.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat Mar 18 2023 21:24:28 GMT+0800 (中国标准时间), Current mtime: Sat Mar 18 2023 21:32:33 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/MovingSceneBg.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/MovingSceneBg.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts as cce:/internal/x/cc.
+debug: Resolve ./framework/PoolManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/Explode.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve ../framework/PoolManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve ../framework/Constant from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve ../framework/Constant from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve ../framework/PoolManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve ../bullet/Bullet from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/Bullet.ts.
+debug: Resolve ../bullet/BulletProp from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/bullet/BulletProp.ts.
+debug: Resolve ../plane/SelfPlane from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts.
+debug: Resolve ../plane/EnemyPlane from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts.
+debug: Resolve ./AudioManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/AudioManager.ts.
+debug: Resolve ./Constant from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve ../framework/Constant from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve ./PoolManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve ../framework/PoolManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/EnemyPlane.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/PoolManager.ts.
+debug: Resolve ../framework/Constant from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/plane/SelfPlane.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/Constant.ts.
+debug: Resolve ../framework/GameManager from file:///C:/Users/coderYarn/Desktop/airplane/assets/script/ui/UIMain.ts as file:///C:/Users/coderYarn/Desktop/airplane/assets/script/framework/GameManager.ts.
+debug: Target(preview) ends with cost 740.8685999959707ms.

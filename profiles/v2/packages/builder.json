@@ -1,0 +1,57 @@
+{
+  "__version__": "1.2.9",
+  "log": {
+    "level": 4
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1679146669094": {
+        "id": "1679146669094",
+        "progress": 0.175,
+        "state": "processing",
+        "message": "Build engine",
+        "options": {
+          "name": "airplane",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "1078973b-67f7-4366-8a61-e2ddd39429c8",
+          "scenes": [
+            {
+              "url": "db://assets/scene/airplane.scene",
+              "uuid": "1078973b-67f7-4366-8a61-e2ddd39429c8",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-desktop",
+          "packages": {
+            "web-desktop": {
+              "resolution": {
+                "designWidth": 1280,
+                "designHeight": 960
+              },
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "7d054d",
+              "services": []
+            }
+          }
+        },
+        "time": "2023-3-18 21:37",
+        "dirty": false
+      }
+    }
+  }
+}

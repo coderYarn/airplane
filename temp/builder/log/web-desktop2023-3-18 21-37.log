@@ -1,0 +1,136 @@
+2023-3-18 21:37-debug: Start record console... {file(C:\Users\coderYarn\Desktop\airplane\temp\builder\log\web-desktop2023-3-18 21-37.log)}
+2023-3-18 21:37-debug: =================================== Build Task (web-desktop) Start ================================
+2023-3-18 21:37-debug: cocos-service:(onBeforeBuild) start...0%
+2023-3-18 21:37-debug: // ---- cocos-service:(onBeforeBuild) ----
+2023-3-18 21:37-debug: Build with Cocos Creator 3.3.2
+2023-3-18 21:37-debug: Start build task, options:{"name":"airplane","platform":"web-desktop","buildPath":"project://build","debug":false,"md5Cache":false,"sourceMaps":false,"replaceSplashScreen":false,"mainBundleCompressionType":"merge_dep","mainBundleIsRemote":false,"mergeStartScene":false,"experimentalEraseModules":false,"compressTexture":true,"packAutoAtlas":true,"startScene":"1078973b-67f7-4366-8a61-e2ddd39429c8","scenes":[{"url":"db://assets/scene/airplane.scene","uuid":"1078973b-67f7-4366-8a61-e2ddd39429c8","inBundle":false}],"outputName":"web-desktop","packages":{"web-desktop":{"resolution":{"designWidth":1280,"designHeight":960},"polyfills":{"asyncFunctions":true}},"cocos-service":{"configID":"7d054d","services":[]}}}
+2023-3-18 21:37-debug: Process: heapTotal 179.63MB heapUsed 166.70MB rss 307.30MB
+2023-3-18 21:37-debug: cocos-service:(onBeforeBuild)3%
+2023-3-18 21:37-debug: // ---- cocos-service:(onBeforeBuild) success ----
+2023-3-18 21:37-debug: Query all assets info in project
+2023-3-18 21:37-debug: BuildAssetLibrary query-assets with assets 291
+2023-3-18 21:37-debug:   Number of all scripts: 11
+2023-3-18 21:37-debug: BuildAssetLibrary initialized with asset 424!
+2023-3-18 21:37-debug:   Number of other assets: 489
+2023-3-18 21:37-debug: web-desktop:(onAfterInit) start...3%
+2023-3-18 21:37-debug: // ---- web-desktop:(onAfterInit) ----
+2023-3-18 21:37-debug: Process: heapTotal 179.89MB heapUsed 168.12MB rss 308.35MB
+2023-3-18 21:37-debug: // ---- web-desktop:(onAfterInit) success ----
+2023-3-18 21:37-debug: web-desktop:(onAfterInit)5%
+2023-3-18 21:37-debug: Reload project scripts start5%
+2023-3-18 21:37-log: // ---- Reload project scripts ----
+2023-3-18 21:37-debug:   Number of all scenes: 1
+2023-3-18 21:37-debug: Process: heapTotal 179.89MB heapUsed 168.16MB rss 308.39MB
+2023-3-18 21:37-debug: reload all scripts.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/cce/internal/x/cc.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+2023-3-18 21:37-debug: Invalidating 'pack:///mods/cce/internal/x/cc.js'
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/cce/internal/code-quality/cr.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2023-3-18 21:37-debug: [[Executor]] Register PoolManager
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/framework/PoolManager.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Register Explode
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/Explode.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/MovingSceneBg.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/cce/internal/x/cc.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/framework/Constant.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/bullet/Bullet.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Register BulletProp
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/bullet/BulletProp.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Register MovingSceneBg
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/framework/AudioManager.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Register EnemyPlane
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/plane/EnemyPlane.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Register SelfPlane
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/plane/SelfPlane.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Register GameManager
+2023-3-18 21:37-debug: [[Executor]] Register Bullet
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/framework/GameManager.js" loaded.
+2023-3-18 21:37-debug: [[Executor]] Register UIMain
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/cce/internal/x/prerequisite-imports.js" loaded.
+2023-3-18 21:37-debug: Reload project scripts √6%
+2023-3-18 21:37-debug: [[Executor]] Module "pack:///mods/fs/0/assets/script/ui/UIMain.js" loaded.
+2023-3-18 21:37-debug: Query asset bundle start6%
+2023-3-18 21:37-log: // ---- Query asset bundle ----
+2023-3-18 21:37-debug: Process: heapTotal 180.38MB heapUsed 167.91MB rss 312.12MB
+2023-3-18 21:37-debug: [[Executor]] Register AudioManager
+2023-3-18 21:37-debug: Process: heapTotal 180.38MB heapUsed 167.98MB rss 310.96MB
+2023-3-18 21:37-debug: Query and organize assets start8%
+2023-3-18 21:37-debug: Query asset bundle √8%
+2023-3-18 21:37-log: // ---- Query and organize assets ----
+2023-3-18 21:37-debug: Number of scenes: 1
+2023-3-18 21:37-debug: Number of assets: 165
+2023-3-18 21:37-debug: Query and organize assets √9%
+2023-3-18 21:37-log: // ---- Organize scripts ----
+2023-3-18 21:37-debug: sort script group...
+2023-3-18 21:37-debug: Process: heapTotal 191.51MB heapUsed 174.13MB rss 315.87MB
+2023-3-18 21:37-debug: Organize texture compression tasks start10%
+2023-3-18 21:37-log: // ---- Organize texture compression tasks ----
+2023-3-18 21:37-debug: Organize scripts start9%
+2023-3-18 21:37-debug: Process: heapTotal 191.51MB heapUsed 174.16MB rss 315.91MB
+2023-3-18 21:37-debug: Number of asset bundle: 1
+2023-3-18 21:37-debug: Organize scripts √10%
+2023-3-18 21:37-debug: Number of image-compress task: 0
+2023-3-18 21:37-debug: Organize texture compression tasks √11%
+2023-3-18 21:37-debug: Group json start11%
+2023-3-18 21:37-log: // ---- Group json ----
+2023-3-18 21:37-debug: Number of json group: 1
+2023-3-18 21:37-debug: Process: heapTotal 191.51MB heapUsed 174.42MB rss 316.52MB
+2023-3-18 21:37-debug: Merging Texture2D json start12%
+2023-3-18 21:37-debug: Process: heapTotal 191.51MB heapUsed 174.55MB rss 316.61MB
+2023-3-18 21:37-debug: Group json √12%
+2023-3-18 21:37-debug: Merging Texture2D json √14%
+2023-3-18 21:37-log: // ---- Merging Texture2D json ----
+2023-3-18 21:37-debug: Process: heapTotal 191.51MB heapUsed 174.61MB rss 316.82MB
+2023-3-18 21:37-log: // ----  ----
+2023-3-18 21:37-debug:  start14%
+2023-3-18 21:37-debug: web-desktop:(onBeforeBuildAssets) start...15%
+2023-3-18 21:37-debug: // ---- web-desktop:(onBeforeBuildAssets) ----
+2023-3-18 21:37-debug:  √15%
+2023-3-18 21:37-debug: Process: heapTotal 191.51MB heapUsed 174.63MB rss 316.86MB
+2023-3-18 21:37-debug:  start18%
+2023-3-18 21:37-debug: web-desktop:(onBeforeBuildAssets)18%
+2023-3-18 21:37-log: // ----  ----
+2023-3-18 21:37-debug: // ---- web-desktop:(onBeforeBuildAssets) success ----
+2023-3-18 21:37-debug: Process: heapTotal 191.51MB heapUsed 174.66MB rss 316.89MB
+2023-3-18 21:37-warn: Browserslist: caniuse-lite is outdated. Please run:npx browserslist@latest --update-db
+2023-3-18 21:37-warn: Browserslist: caniuse-lite is outdated. Please run:npx browserslist@latest --update-dbWhy you should do it regularly:https://github.com/browserslist/browserslist#browsers-data-updating
+2023-3-18 21:38-debug: Build script18%
+2023-3-18 21:38-debug: Process: heapTotal 195.30MB heapUsed 181.05MB rss 323.07MB
+2023-3-18 21:38-debug: Copy externalScripts success!
+2023-3-18 21:38-debug: Build script√18%
+2023-3-18 21:38-debug: Build engine18%
+2023-3-18 21:38-debug: Process: heapTotal 218.91MB heapUsed 190.41MB rss 339.68MB
+2023-3-18 21:38-debug: Engine cache ({link(C:\Users\CODERY~1\AppData\Local\Temp\CocosCreator\3.3.2\builder\engine\027a30822c39fa4c642f4727b6624ac4)}) does not exist.
+2023-3-18 21:38-debug: {"incremental":"C:\\Users\\CODERY~1\\AppData\\Local\\Temp\\CocosCreator\\3.3.2\\builder\\engine\\027a30822c39fa4c642f4727b6624ac4.watch-files.json","engine":"D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine","out":"C:\\Users\\CODERY~1\\AppData\\Local\\Temp\\CocosCreator\\3.3.2\\builder\\engine\\027a30822c39fa4c642f4727b6624ac4","moduleFormat":2,"compress":true,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","buildTimeConstants":{"HTML5":true,"WECHAT":false,"ALIPAY":false,"BAIDU":false,"XIAOMI":false,"BYTEDANCE":false,"OPPO":false,"VIVO":false,"HUAWEI":false,"NATIVE":false,"COCOSPLAY":false,"LINKSURE":false,"QTT":false,"EDITOR":false,"PREVIEW":false,"BUILD":true,"TEST":false,"DEBUG":false,"DEV":false,"RUNTIME_BASED":false,"MINIGAME":false,"JSB":false,"SUPPORT_JIT":true},"loose":true,"features":["base","gfx-webgl","gfx-webgl2","3d","2d","ui","particle","physics-builtin","intersection-2d","primitive","profiler","particle-2d","audio","video","webview","tween"],"platform":"HTML5","mode":"BUILD"}
+2023-3-18 21:38-debug: Build-engine options: {  "incremental": "C:\\Users\\CODERY~1\\AppData\\Local\\Temp\\CocosCreator\\3.3.2\\builder\\engine\\027a30822c39fa4c642f4727b6624ac4.watch-files.json",  "engine": "D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine",  "out": "C:\\Users\\CODERY~1\\AppData\\Local\\Temp\\CocosCreator\\3.3.2\\builder\\engine\\027a30822c39fa4c642f4727b6624ac4",  "moduleFormat": 2,  "compress": true,  "ammoJsWasm": "fallback",  "assetURLFormat": "runtime-resolved",  "buildTimeConstants": {    "HTML5": true,    "WECHAT": false,    "ALIPAY": false,    "BAIDU": false,    "XIAOMI": false,    "BYTEDANCE": false,    "OPPO": false,    "VIVO": false,    "HUAWEI": false,    "NATIVE": false,    "COCOSPLAY": false,    "LINKSURE": false,    "QTT": false,    "EDITOR": false,    "PREVIEW": false,    "BUILD": true,    "TEST": false,    "DEBUG": false,    "DEV": false,    "RUNTIME_BASED": false,    "MINIGAME": false,    "JSB": false,    "SUPPORT_JIT": true  },  "loose": true,  "features": [    "base",    "gfx-webgl",    "gfx-webgl2",    "3d",    "2d",    "ui",    "particle",    "physics-builtin",    "intersection-2d",    "primitive",    "profiler",    "particle-2d",    "audio",    "video",    "webview",    "tween"  ],  "platform": "HTML5",  "mode": "BUILD"}
+2023-3-18 21:38-debug: Module source "internal-constants":export const EXPORT_TO_GLOBAL = true;export const HTML5 = true;export const WECHAT = false;export const ALIPAY = false;export const BAIDU = false;export const XIAOMI = false;export const BYTEDANCE = false;export const OPPO = false;export const VIVO = false;export const HUAWEI = false;export const NATIVE = false;export const COCOSPLAY = false;export const LINKSURE = false;export const QTT = false;export const EDITOR = false;export const PREVIEW = false;export const BUILD = true;export const TEST = false;export const DEBUG = false;export const DEV = false;export const RUNTIME_BASED = false;export const MINIGAME = false;export const JSB = false;export const SUPPORT_JIT = true;
+2023-3-18 21:38-debug: Module source "cc":export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\base.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\gfx-webgl.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\gfx-webgl2.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\3d.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\2d.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\ui.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\particle.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\physics-builtin.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\physics-framework.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\intersection-2d.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\primitive.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\profiler.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\particle-2d.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\audio.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\video.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\webview.ts';export * from 'D:\\CocosDashboard_1.2.5\\resources\\.editors\\Creator\\3.3.2\\resources\\resources\\3d\\engine\\exports\\tween.ts';
+2023-3-18 21:38-debug: Redirect module pal/system-info to D:\CocosDashboard_1.2.5\resources\.editors\Creator\3.3.2\resources\resources\3d\engine\pal\system-info\web\system-info.ts
+2023-3-18 21:38-debug: Redirect module pal/screen-adapter to D:\CocosDashboard_1.2.5\resources\.editors\Creator\3.3.2\resources\resources\3d\engine\pal\screen-adapter\web\screen-adapter.ts
+2023-3-18 21:38-debug: Redirect module pal/audio to D:\CocosDashboard_1.2.5\resources\.editors\Creator\3.3.2\resources\resources\3d\engine\pal\audio\web\player.ts
+2023-3-18 21:38-debug: Redirect module pal/minigame to D:\CocosDashboard_1.2.5\resources\.editors\Creator\3.3.2\resources\resources\3d\engine\pal\minigame\non-minigame.ts
+2023-3-18 21:38-debug: Redirect module pal/input to D:\CocosDashboard_1.2.5\resources\.editors\Creator\3.3.2\resources\resources\3d\engine\pal\input\web\index.ts
+2023-3-18 21:39-debug: ====             ====
+2023-3-18 21:39-debug: {"# BUILD":[67313.4421,177869244,378787456],"## generate module graph":[63693.0468,188410936,389331440],"- plugin 0 (@cocos/build-engine|code-asset) - resolveId":[13.993500000000171,269652,394711344],"- plugin 1 (@cocos/build-engine|load-asset) - resolveId":[18.50320000000033,746460,394711872],"- plugin 1 (@cocos/build-engine|load-asset) - resolveId (async)":[76.87620000000022,3179852,394712156],"- plugin 2 (@cocos/build-engine|module-overrides) - resolveId":[18.994699999999714,286880,394712548],"- plugin 3 (virtual) - resolveId":[67.93129999999974,-10658088,394714292],"load modules":[456624.81699999963,1261702848,394776920],"- plugin 0 (@cocos/build-engine|code-asset) - load":[21.20439999999999,626576,385469328],"- plugin 0 (@cocos/build-engine|code-asset) - load (async)":[4.643799999999995,151444,385469612],"- plugin 1 (@cocos/build-engine|load-asset) - load":[3.7131999999999965,162976,385470168],"- plugin 1 (@cocos/build-engine|load-asset) - load (async)":[3.164400000000001,149496,385470452],"- plugin 2 (@cocos/build-engine|module-overrides) - load":[14.507800000000001,301060,385479804],"- plugin 3 (virtual) - load":[2.817199999999996,52864,385480196],"- plugin 6 (json) - transform":[8.39829999999999,570184,394782796],"- plugin 7 (commonjs) - transform":[33.12920000000001,565832,394785684],"- plugin 8 (babel) - transform":[698.6119000000003,23007908,394820332],"generate ast":[4028.8460999999975,-851224,394248676],"analyse ast":[2157.5363,-14413356,394707280],"- plugin 4 (ts-paths) - resolveId":[12.536299999999834,276148,394714684],"- plugin 5 (node-resolve) - resolveId":[99.08830000000043,7396700,394717700],"- plugin 5 (node-resolve) - resolveId (async)":[153100.7269999999,71970836,391641864],"- plugin 5 (node-resolve) - load":[2.849599999999996,52188,385480628],"- plugin 7 (commonjs) - load":[10.869500000000011,630488,385481904],"- plugin 8 (babel) - load":[238.27030000000033,-1381340,385482296],"- plugin 8 (babel) - transform (async)":[49913.037300000025,237011588,393999880],"- plugin 7 (commonjs) - resolveId":[3.932699999999997,32912,391533252],"- plugin 8 (babel) - resolveId":[2.1959999999999997,22952,391533644],"## sort modules":[722.0533,13608952,402940832],"## mark included statements":[2897.984,-24154876,378786344],"treeshaking pass 1":[1190.1677,-21938296,375967740],"treeshaking pass 2":[543.6785,3148460,379116580],"treeshaking pass 3":[286.043,274140,379391100],"treeshaking pass 4":[219.5187,-594940,378796540],"treeshaking pass 5":[153.0649,-1192428,377604492],"treeshaking pass 6":[137.1654,720172,378325044],"treeshaking pass 7":[121.5296,268196,378593620],"treeshaking pass 8":[120.1696,191972,378785972]}
+2023-3-18 21:39-debug: ==== Performance ====

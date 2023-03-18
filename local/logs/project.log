@@ -1,0 +1,79 @@
+2023-03-18 21:32:34-log: [Package] menu@1.0.0 enable
+2023-03-18 21:32:34-log: [Package] profile@1.0.0 enable
+2023-03-18 21:32:34-log: [Package] messages@1.0.0 enable
+2023-03-18 21:32:34-log: [Package] program@1.0.0 enable
+2023-03-18 21:32:34-log: [Package] device@1.0.1 enable
+2023-03-18 21:32:34-log: [Package] ui-kit@1.0.1 enable
+2023-03-18 21:32:35-log: [Package] tester@1.0.0 enable
+2023-03-18 21:32:35-log: [Package] preferences@1.0.0 enable
+2023-03-18 21:32:35-log: Setup mods mgr.: 231.08ms
+2023-03-18 21:32:35-log: [Package] engine@1.0.5 enable
+2023-03-18 21:32:37-log: [Package] programming@1.0.0 enable
+2023-03-18 21:32:37-log: [Package] asset-db@1.0.0 enable
+2023-03-18 21:32:37-log: [Package] console@1.0.0 enable
+2023-03-18 21:32:37-log: [Package] scene@1.0.0 enable
+2023-03-18 21:32:37-log: [Package] project@1.0.1 enable
+2023-03-18 21:32:37-log: [Package] about@1.0.0 enable
+2023-03-18 21:32:37-log: [Package] server@1.0.0 enable
+2023-03-18 21:32:37-log: [Package] utils@1.0.0 enable
+2023-03-18 21:32:37-log: [Package] assets@1.0.0 enable
+2023-03-18 21:32:38-log: [Package] inspector@1.0.0 enable
+2023-03-18 21:32:38-log: [Package] hierarchy@1.0.0 enable
+2023-03-18 21:32:40-log: [Package] preview@1.0.1 enable
+2023-03-18 21:32:40-log: [Package] animator@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] builder@1.2.9 enable
+2023-03-18 21:32:41-log: [Package] node-library@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] shortcuts@1.0.1 enable
+2023-03-18 21:32:41-log: [Package] package-asset@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] reference-image@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] channel-upload-tools@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] runtime-dev-tools@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] alipay-mini-game@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] android@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] baidu-mini-game@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] bytedance-mini-game@1.0.1 enable
+2023-03-18 21:32:41-log: [Package] huawei-agc@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] ios@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] ios-app-clip@1.0.0 enable
+2023-03-18 21:32:41-log: [Package] mac@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] native@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] ohos@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] web-desktop@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] web-mobile@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] wechatgame@1.0.1 enable
+2023-03-18 21:32:42-log: [Package] windows@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] xiaomi-quick-game@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] cocos-play@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] huawei-quick-game@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] link-sure@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] oppo-mini-game@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] qtt@1.0.0 enable
+2023-03-18 21:32:42-log: [Package] vivo-mini-game@1.0.0 enable
+2023-03-18 21:32:43-log: [Package] cocos-service@3.0.1 enable
+2023-03-18 21:32:43-log: [Package] importer@1.0.0 enable
+2023-03-18 21:32:44-log: [Package] extension@3.0.10 enable
+2023-03-18 21:32:44-log: [Im-plugin] Check im-plugin version.
+2023-03-18 21:32:44-log: [Package] im-plugin@3.0.7 enable
+2023-03-18 21:32:44-log: [Package] lightmap@1.0.3 enable
+2023-03-18 21:32:45-log: [Im-plugin] No online info of im-plugin.
+2023-03-18 21:32:47-warn: Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+2023-03-18 21:32:47-log: [Scene] begin init
+2023-03-18 21:32:47-log: [Scene] require engine end
+2023-03-18 21:32:47-log: [Scene] Serialize end
+2023-03-18 21:32:47-log: [Scene] configureStartup end
+2023-03-18 21:32:47-info: [Scene] WebGL2 device initialized.
+2023-03-18 21:32:47-log: [Scene] Cocos Creator v3.3.2
+2023-03-18 21:32:48-info: [Scene] Forward render pipeline initialized.
+2023-03-18 21:32:49-log: [Scene] openEngine end
+2023-03-18 21:32:49-log: [Scene] configureEngine end
+2023-03-18 21:37:54-warn: [Build] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+2023-03-18 21:37:55-warn: [Build] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating

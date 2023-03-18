@@ -1,0 +1,218 @@
+{
+  "assets/script/ui/UIMain.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/GameManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/UIMain.js",
+    "mTimestamp": 1679146367807
+  },
+  "assets/script/MovingSceneBg.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/MovingSceneBg.js",
+    "mTimestamp": 1679146367432
+  },
+  "assets/script/bullet/BulletProp.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_2": "assets/script/framework/PoolManager.js",
+      "__unresolved_1": "assets/script/framework/Constant.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/bullet/BulletProp.js",
+    "mTimestamp": 1679146367400
+  },
+  "assets/script/bullet/Bullet.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/Constant.js",
+      "__unresolved_2": "assets/script/framework/PoolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/bullet/Bullet.js",
+    "mTimestamp": 1679146367774
+  },
+  "assets/script/framework/Constant.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/Constant.js",
+    "mTimestamp": 1679146367300
+  },
+  "assets/script/framework/GameManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_2": "assets/script/bullet/BulletProp.js",
+      "__unresolved_1": "assets/script/bullet/Bullet.js",
+      "__unresolved_3": "assets/script/plane/EnemyPlane.js",
+      "__unresolved_4": "assets/script/plane/SelfPlane.js",
+      "__unresolved_6": "assets/script/framework/Constant.js",
+      "__unresolved_5": "assets/script/framework/AudioManager.js",
+      "__unresolved_7": "assets/script/framework/PoolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/GameManager.js",
+    "mTimestamp": 1679146367648
+  },
+  "assets/script/Explode.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/PoolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/Explode.js",
+    "mTimestamp": 1679146367170
+  },
+  "assets/script/plane/SelfPlane.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/Constant.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/plane/SelfPlane.js",
+    "mTimestamp": 1679146367740
+  },
+  "assets/script/plane/EnemyPlane.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/Constant.js",
+      "__unresolved_2": "assets/script/framework/PoolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/plane/EnemyPlane.js",
+    "mTimestamp": 1679146367711
+  },
+  "assets/script/framework/AudioManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/AudioManager.js",
+    "mTimestamp": 1679146367353
+  },
+  "assets/script/framework/PoolManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/PoolManager.js",
+    "mTimestamp": 1679146367675
+  },
+  "quick-pack:/cce/internal/x/cc.js": {
+    "imports": {
+      "__unresolved_0": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/base"
+      },
+      "__unresolved_1": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/gfx-webgl"
+      },
+      "__unresolved_2": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/gfx-webgl2"
+      },
+      "__unresolved_3": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/3d"
+      },
+      "__unresolved_4": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/2d"
+      },
+      "__unresolved_5": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/ui"
+      },
+      "__unresolved_6": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/particle"
+      },
+      "__unresolved_7": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/particle-2d"
+      },
+      "__unresolved_8": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/physics-framework"
+      },
+      "__unresolved_9": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/physics-2d-framework"
+      },
+      "__unresolved_10": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/intersection-2d"
+      },
+      "__unresolved_11": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/primitive"
+      },
+      "__unresolved_12": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/profiler"
+      },
+      "__unresolved_13": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/audio"
+      },
+      "__unresolved_14": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/video"
+      },
+      "__unresolved_15": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/terrain"
+      },
+      "__unresolved_16": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/webview"
+      },
+      "__unresolved_17": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/tween"
+      },
+      "__unresolved_18": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/tiled-map"
+      },
+      "__unresolved_19": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/spine"
+      },
+      "__unresolved_20": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/dragon-bones"
+      }
+    },
+    "physicalLocation": "cce/internal/x/cc.js",
+    "mTimestamp": 1679146367100,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/cc"
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "__unresolved_5": "assets/script/framework/Constant.js",
+      "__unresolved_0": "assets/script/Explode.js",
+      "__unresolved_4": "assets/script/framework/AudioManager.js",
+      "__unresolved_3": "assets/script/bullet/BulletProp.js",
+      "__unresolved_1": "assets/script/MovingSceneBg.js",
+      "__unresolved_6": "assets/script/framework/GameManager.js",
+      "__unresolved_7": "assets/script/framework/PoolManager.js",
+      "__unresolved_8": "assets/script/plane/EnemyPlane.js",
+      "__unresolved_9": "assets/script/plane/SelfPlane.js",
+      "__unresolved_2": "assets/script/bullet/Bullet.js",
+      "__unresolved_10": "assets/script/ui/UIMain.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1679146367123,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "quick-pack:/cce/internal/code-quality/cr.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/code-quality/cr.js",
+    "mTimestamp": 1679146367834
+  }
+}
